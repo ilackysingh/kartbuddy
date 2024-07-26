@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".changeLocale").on('change',function(){var lang=$(this).val();var url="/localization/"+lang;window.location.href=url;});});
